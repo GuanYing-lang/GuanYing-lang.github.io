@@ -3257,7 +3257,7 @@ blockquote footer cite:before {
 }
 @media screen and (min-width: 768px) {
   #page-header #site-title {
-    font-size: 2.85em;
+    font-size: 5em;
   }
 }
 #page-header #site-subtitle {
@@ -3284,7 +3284,7 @@ blockquote footer cite:before {
   margin: 0 0.5rem;
   color: var(--light-grey);
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
-  font-size: 1.43em;
+  font-size: 1.15em;
   cursor: pointer;
 }
 #page-header #scroll-down {
@@ -3297,7 +3297,7 @@ blockquote footer cite:before {
   position: relative;
   width: 100%;
   color: var(--light-grey);
-  font-size: 30px;
+  font-size: 0px;
 }
 #page-header.not-home-page {
   height: 20rem;
@@ -3516,7 +3516,7 @@ _:future,
   padding: 0 36px;
   width: 100%;
   height: 60px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
@@ -3561,7 +3561,7 @@ _:future,
 }
 #nav #site-name {
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
-  font-weight: bold;
+  font-size: 0em;
   cursor: pointer;
 }
 #nav .menus_items {
@@ -3652,7 +3652,7 @@ _:future,
   position: relative;
   padding-bottom: 0.3rem;
   text-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,0.3);
-  font-size: 0.78em;
+  font-size: 1.2em;
   cursor: pointer;
 }
 #nav .site-page:not(.child):after {
@@ -4109,8 +4109,8 @@ _:future,
 #rightside > div > a {
   display: block;
   margin-bottom: 2px;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   background-color: var(--btn-bg);
   color: var(--btn-color);
   text-align: center;
