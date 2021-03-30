@@ -3228,8 +3228,13 @@ blockquote footer cite:before {
   transition: all 0.5s;
 }
 #page-header.full_page {
-  height: 100vh;
+  height: 20rem;
   background-attachment: fixed;
+}
+@media screen and (max-width: 768px) {
+  #page-header.full_page {
+    height: 14rem;
+  }
 }
 #page-header.full_page #site-info {
   position: absolute;
@@ -3294,7 +3299,7 @@ blockquote footer cite:before {
   font-size: 0px;
 }
 #page-header.not-home-page {
-  height: 100vh;
+  height: 20rem;
   background-attachment: fixed;
 }
 @media screen and (max-width: 768px) {
@@ -3565,7 +3570,7 @@ _:future,
 #nav .menus_items .menus_item {
   position: relative;
   display: inline-block;
-  padding: 0 0 0 0.7rem;
+  padding: 0 0 0 1.2rem;
 }
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: block;
