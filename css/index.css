@@ -3294,12 +3294,12 @@ blockquote footer cite:before {
   font-size: 0px;
 }
 #page-header.not-home-page {
-  height: 100vh;
+  height: 20rem;
   background-attachment: fixed;
 }
 @media screen and (max-width: 768px) {
   #page-header.not-home-page {
-    height: 28.9rem;
+    height: 14rem;
   }
 }
 #page-header #page-site-info {
@@ -3310,7 +3310,7 @@ blockquote footer cite:before {
 }
 @media screen and (max-width: 768px) {
   #page-header #page-site-info {
-    top: 14rem;
+    top: 7rem;
   }
 }
 #page-header.post-bg {
